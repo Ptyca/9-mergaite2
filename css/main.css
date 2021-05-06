@@ -23,9 +23,22 @@ nav {
     float: right;
     margin-top: 22px;
     background-color: aqua;
-    padding: 10px;
 }
 
+nav > a {
+    padding: 10px;
+    border: 2px;
+    border-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    
+
+}
+
+nav > a:last-of-type {
+    background-color: royalblue;
+    text-decoration: uppercase;
+}
 main {
 
 }
