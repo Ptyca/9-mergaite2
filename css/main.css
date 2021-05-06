@@ -1,0 +1,44 @@
+
+body {
+display: inline-block;
+width: 800px;
+background-color: pink;
+margin-left: calc((100% - 800px) / 2);
+
+}
+
+body > img {
+    display: inline-block;
+    display: flex;
+
+    width: 50px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    gap: 24px;
+    float: right;
+    margin-top: 22px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+main {
+
+}
+div {
+
+}
+
+main > h1 {
+
+}
+
+main > p {
+
+}
+
+main > img {}
